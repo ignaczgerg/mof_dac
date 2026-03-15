@@ -1,0 +1,23 @@
+__pycache__/
+dcgm/
+src/jmp.egg-info/
+lightning_logs/
+output_data*/
+
+# Ignore Jupyter checkpoints 
+.ipynb_checkpoints*
+
+# Ignore scripts outputs
+*.out
+*.err
+
+wandb/
+# *.pt
+*.png
+*.csv 
+my_scripts/results/*
+internal_files/
+
+my_scripts/custom_predictions/run_1m.sh
+my_scripts/custom_predictions/run_300k.sh
+download_all_adsorptoin.sh
