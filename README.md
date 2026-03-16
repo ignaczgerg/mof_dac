@@ -1,8 +1,4 @@
-# Aramco DAC Project
 
-This repository contains the training setup for pretraining and fine-tuning models used in the Aramco DAC project for adsorption and MOF property prediction.
-
----
 
 ## Pretraining
 
