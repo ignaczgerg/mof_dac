@@ -12,12 +12,9 @@
 
 
 
-CKPT="/ibex/project/c2261/dac_iclr/finetune/lightning_logs/yozti0u8/aramco_dac_finetune/yozti0u8/checkpoints/last.ckpt"
-# CIF_DIR="/home/ignaczg/projects/aramco_dac/temp"
-# CIF_DIR="/home/ignaczg/projects/aramco_dac/temp/Firas/batch_5/"
-# OUT_DIR="/ibex/project/c2261/dac_iclr/predictions/firas/batch_5/"
-CIF_DIR="/ibex/project/c2261/datasets/adsorption-mof-ai-generated-batch-3/cif"
-OUT_DIR="/ibex/project/c2261/dac_iclr/predictions/adsorption-mof-ai-generated-batch-3/"
+CKPT="ckpts/last.ckpt"
+CIF_DIR="/home/ignaczg/projects/mof_dac/cif_files/"
+OUT_DIR="/home/ignaczg/projects/mof_dac/predictions/"
 LIST_FILE=""
 LIST_COL=""
 

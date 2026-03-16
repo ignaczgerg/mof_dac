@@ -300,8 +300,6 @@ def load_checkpoint(model, config, args):
 def configure_wandb(config, args):
     """Configure WandB settings."""
     if args.enable_wandb:
-        # Define WandB parameters
-        config.project = "aramco_dac"
+        config.project = "new-dac-project"
     else:
-        # Disable wandb logging (for debugging)
         config.trainer.logging.wandb.enabled = False

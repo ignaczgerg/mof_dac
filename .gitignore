@@ -21,3 +21,5 @@ internal_files/
 my_scripts/custom_predictions/run_1m.sh
 my_scripts/custom_predictions/run_300k.sh
 download_all_adsorptoin.sh
+*.ckpt
+*.npz
