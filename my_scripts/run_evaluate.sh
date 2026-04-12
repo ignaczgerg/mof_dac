@@ -1,0 +1,11 @@
+python eval_from_checkpoint.py   \
+    --dataset_name adsorption-mof-ai-generated-1_0-v2   \
+    --targets qst_co2 kh_co2 co2_uptake qst_h2o kh_h2o selectivity_co2_h2o   \
+    --normalization_type standard log log standard log log   \
+    --model_name equiformer_v2   \
+    --small \
+    --checkpoint_path /ibex/project/c2261/dac_iclr/finetune/lightning_logs/yozti0u8/aramco_dac_finetune/yozti0u8/checkpoints/last.ckpt   \
+    --batch_size 1   \
+    --num_workers 4   \
+    --postfix yozti0u8   \
+    --path_to_cifs /ibex/project/c2261/datasets/adsorption-mof-ai-generated-1_0-v2

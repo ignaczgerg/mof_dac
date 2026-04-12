@@ -1,0 +1,1 @@
+Data(pos=[108, 3], cell=[3, 3], atomic_numbers=[108], natoms=108, tags=[108], pbc=[3], id='qmof-004947a', lcd=5.44875, pld=3.49142, gcd=5.44875, unitcell_volume=1324.53, oms='No', qst_co2=-36.41273424, qst_h2o=-49.62620173, qst_n2=-18.0975015, qst_co2_h2o=13.21346749, qst_co2_n2=-18.31523, selectivity_co2_n2=85.20710059)
