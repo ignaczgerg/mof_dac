@@ -6,8 +6,8 @@ from typing import Dict, List, Tuple, Sequence, Optional
 
 import numpy as np
 import pandas as pd
-from ase.io import read as ase_read
-from ase.io.cif import parse_cif
+from pymatgen.io.cif import CifParser
+from pymatgen.io.ase import AseAtomsAdaptor
 
 import torch
 from torch_geometric.data import Data
@@ -15,6 +15,15 @@ from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 
 LOGGER = logging.getLogger("preprocess")
 
+
+def ase_read(cif_path: str):
+    parser = CifParser(cif_path)
+    structure = parser.get_structures()[0]
+    atoms = AseAtomsAdaptor.get_atoms(structure)
+    charges = structure.site_properties.get("charge")
+    if charges is not None:
+        atoms.set_initial_charges(charges)
+    return atoms
 
 def _apply_warning_filters():
     warnings.filterwarnings(
@@ -27,21 +36,6 @@ def _apply_warning_filters():
     )
 
 
-def _read_partial_charges(cif_path: str):
-    """Extract per-atom partial charges from a CIF file, if present.
-
-    Returns a numpy float32 array of shape (n_atoms,) or None if the CIF
-    does not contain ``_atom_type_partial_charge`` in the atom_site loop.
-    """
-    import numpy as np
-    with open(cif_path, "r") as f:
-        for block in parse_cif(f):
-            raw = block.get("_atom_type_partial_charge")
-            if raw is not None:
-                return np.array([float(v) for v in raw], dtype=np.float32)
-    return None
-
-
 def _read_cif_worker(task):
     """
     Worker for ProcessPoolExecutor.
@@ -51,12 +45,12 @@ def _read_cif_worker(task):
     _apply_warning_filters()
     idx, cif_path = task
     try:
-        atoms = ase_read(cif_path, index=0, format="cif")
+        atoms = ase_read(cif_path)
         pos = atoms.get_positions()
         cell = atoms.cell.array
         zs = atoms.get_atomic_numbers()
         pbc = atoms.pbc
-        charges = _read_partial_charges(cif_path)
+        charges = atoms.get_initial_charges() if atoms.has("initial_charges") else None
         return (idx, pos, cell, zs, pbc, charges)
     except Exception as e:
         return (idx, e)
@@ -256,8 +250,9 @@ class DataLoader(object):
         entity_id = str(row[self.entity_key])
         cif_path = self._lookup_cif_path(entity_id)
 
-        atoms = ase_read(cif_path, index=0, format="cif")
-        charges = _read_partial_charges(cif_path)
+        atoms = ase_read(cif_path)
+        charges = atoms.get_initial_charges() if atoms.has("initial_charges") else None
+        
         data_kwargs = dict(
             pos=torch.tensor(atoms.get_positions(), dtype=torch.float32),
             cell=torch.tensor(atoms.cell.array, dtype=torch.float32),
