@@ -1,0 +1,318 @@
+[2026-05-10 19:09:48] ==============================================================
+[2026-05-10 19:09:48] watchdog RUN_TAG=aramco_v1  JOB_NAME=ft_aramco_v1
+[2026-05-10 19:09:48] WATCH_INTERVAL=60s  SAVE_EVERY=20  MAX_EPOCHS=1
+[2026-05-10 19:09:48] short_script=/home/ignaczg/projects/aramco_dac/my_scripts/run_exp/run_finetune_mof_db_short.sh
+[2026-05-10 19:09:48] sentinel=/ibex/project/c2261/dac_iclr/finetune/lightning_logs/aramco_v1/aramco_v1.done
+[2026-05-10 19:09:48] ==============================================================
+[2026-05-10 19:09:48] no active 'ft_aramco_v1' job — submitting
+[2026-05-10 19:09:49]   sbatch failed (rc=0): sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+46958407
+[2026-05-10 19:09:49]   (will retry next tick)
+[2026-05-10 19:10:49] no active 'ft_aramco_v1' job — submitting
+[2026-05-10 19:10:49]   sbatch failed (rc=0): sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+46958436
+[2026-05-10 19:10:49]   (will retry next tick)
+[2026-05-10 19:11:05] watchdog interrupted — exiting
+[2026-05-10 20:57:55] ==============================================================
+[2026-05-10 20:57:55] watchdog RUN_TAG=aramco_v1  JOB_NAME=ft_aramco_v1
+[2026-05-10 20:57:55] WATCH_INTERVAL=60s  SAVE_EVERY=20  MAX_EPOCHS=1
+[2026-05-10 20:57:55] short_script=/home/ignaczg/projects/aramco_dac/my_scripts/run_exp/run_finetune_mof_db_short.sh
+[2026-05-10 20:57:55] sentinel=/ibex/project/c2261/dac_iclr/finetune/lightning_logs/aramco_v1/aramco_v1.done
+[2026-05-10 20:57:55] ==============================================================
+[2026-05-10 20:57:55] no active 'ft_aramco_v1' job — submitting
+[2026-05-10 20:57:55]   sbatch failed (rc=0): sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+46960132
+[2026-05-10 20:57:55]   (will retry next tick)
+[2026-05-10 20:57:59] watchdog interrupted — exiting
+[2026-05-10 20:58:16] ==============================================================
+[2026-05-10 20:58:16] watchdog RUN_TAG=aramco_v1  JOB_NAME=ft_aramco_v1
+[2026-05-10 20:58:16] WATCH_INTERVAL=60s  SAVE_EVERY=20  MAX_EPOCHS=1
+[2026-05-10 20:58:16] short_script=/home/ignaczg/projects/aramco_dac/my_scripts/run_exp/run_finetune_mof_db_short.sh
+[2026-05-10 20:58:16] sentinel=/ibex/project/c2261/dac_iclr/finetune/lightning_logs/aramco_v1/aramco_v1.done
+[2026-05-10 20:58:16] ==============================================================
+[2026-05-10 20:58:16] job 'ft_aramco_v1' active — holding
+[2026-05-10 20:58:23] watchdog interrupted — exiting
+[2026-05-10 20:58:31] ==============================================================
+[2026-05-10 20:58:31] watchdog RUN_TAG=aramco_v1  JOB_NAME=ft_aramco_v1
+[2026-05-10 20:58:31] WATCH_INTERVAL=60s  SAVE_EVERY=20  MAX_EPOCHS=1
+[2026-05-10 20:58:31] short_script=/home/ignaczg/projects/aramco_dac/my_scripts/run_exp/run_finetune_mof_db_short.sh
+[2026-05-10 20:58:31] sentinel=/ibex/project/c2261/dac_iclr/finetune/lightning_logs/aramco_v1/aramco_v1.done
+[2026-05-10 20:58:31] ==============================================================
+[2026-05-10 20:58:31] no active 'ft_aramco_v1' job — submitting
+[2026-05-10 20:58:31]   sbatch failed (rc=0): sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+46960144
+[2026-05-10 20:58:31]   (will retry next tick)
+[2026-05-10 20:58:43] watchdog interrupted — exiting
+[2026-05-10 20:59:29] ==============================================================
+[2026-05-10 20:59:29] watchdog RUN_TAG=aramco_v1  JOB_NAME=ft_aramco_v1
+[2026-05-10 20:59:29] WATCH_INTERVAL=60s  SAVE_EVERY=20  MAX_EPOCHS=1
+[2026-05-10 20:59:29] short_script=/home/ignaczg/projects/aramco_dac/my_scripts/run_exp/run_finetune_mof_db_short.sh
+[2026-05-10 20:59:29] sentinel=/ibex/project/c2261/dac_iclr/finetune/lightning_logs/aramco_v1/aramco_v1.done
+[2026-05-10 20:59:29] ==============================================================
+[2026-05-10 20:59:29] no active 'ft_aramco_v1' job — submitting
+[2026-05-10 20:59:29]   sbatch failed (rc=0): sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+46960146
+[2026-05-10 20:59:29]   (will retry next tick)
+[2026-05-10 21:00:29] job 'ft_aramco_v1' active — holding
+[2026-05-10 21:01:29] no active 'ft_aramco_v1' job — submitting
+[2026-05-10 21:01:29]   sbatch failed (rc=0): sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+46960153
+[2026-05-10 21:01:29]   (will retry next tick)
+[2026-05-10 21:02:29] job 'ft_aramco_v1' active — holding
+[2026-05-10 21:03:30] no active 'ft_aramco_v1' job — submitting
+[2026-05-10 21:03:30]   sbatch failed (rc=0): sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+46960249
+[2026-05-10 21:03:30]   (will retry next tick)
+[2026-05-10 21:04:30] job 'ft_aramco_v1' active — holding
+[2026-05-10 21:05:30] no active 'ft_aramco_v1' job — submitting
+[2026-05-10 21:05:30]   sbatch failed (rc=0): sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+46960266
+[2026-05-10 21:05:30]   (will retry next tick)
+[2026-05-10 21:06:17] watchdog interrupted — exiting
+[2026-05-10 21:06:18] ==============================================================
+[2026-05-10 21:06:18] watchdog RUN_TAG=aramco_v1  JOB_NAME=ft_aramco_v1
+[2026-05-10 21:06:18] WATCH_INTERVAL=60s  SAVE_EVERY=20  MAX_EPOCHS=1
+[2026-05-10 21:06:18] short_script=/home/ignaczg/projects/aramco_dac/my_scripts/run_exp/run_finetune_mof_db_short.sh
+[2026-05-10 21:06:18] sentinel=/ibex/project/c2261/dac_iclr/finetune/lightning_logs/aramco_v1/aramco_v1.done
+[2026-05-10 21:06:18] ==============================================================
+[2026-05-10 21:06:18] job 'ft_aramco_v1' active — holding
+[2026-05-10 21:06:24] watchdog interrupted — exiting
+[2026-05-10 21:09:21] ==============================================================
+[2026-05-10 21:09:21] watchdog RUN_TAG=aramco_v1  JOB_NAME=ft_aramco_v1
+[2026-05-10 21:09:21] WATCH_INTERVAL=60s  SAVE_EVERY=20  MAX_EPOCHS=1
+[2026-05-10 21:09:21] short_script=/home/ignaczg/projects/aramco_dac/my_scripts/run_exp/run_finetune_mof_db_short.sh
+[2026-05-10 21:09:21] sentinel=/ibex/project/c2261/dac_iclr/finetune/lightning_logs/aramco_v1/aramco_v1.done
+[2026-05-10 21:09:21] ==============================================================
+[2026-05-10 21:09:21] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:09:22]   submitted jobid=46960306
+[2026-05-10 21:10:22] job 'ft_aramco_v1' active — holding
+[2026-05-10 21:11:22] job 'ft_aramco_v1' active — holding
+[2026-05-10 21:12:22] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:12:22]   submitted jobid=46960347
+[2026-05-10 21:13:22] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:13:22]   submitted jobid=46960353
+[2026-05-10 21:14:22] job 'ft_aramco_v1' active — holding
+[2026-05-10 21:15:22] job 'ft_aramco_v1' active — holding
+[2026-05-10 21:16:22] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:16:23]   submitted jobid=46960366
+[2026-05-10 21:17:23] job 'ft_aramco_v1' active — holding
+[2026-05-10 21:18:23] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:18:23]   submitted jobid=46960376
+[2026-05-10 21:19:23] job 'ft_aramco_v1' active — holding
+[2026-05-10 21:20:23] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:20:23]   submitted jobid=46960397
+[2026-05-10 21:21:23] job 'ft_aramco_v1' active — holding
+[2026-05-10 21:22:23] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:22:24]   submitted jobid=46960406
+[2026-05-10 21:23:24] job 'ft_aramco_v1' active — holding
+[2026-05-10 21:24:24] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:24:24]   submitted jobid=46960415
+[2026-05-10 21:25:24] job 'ft_aramco_v1' active — holding
+[2026-05-10 21:26:24] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:26:24]   submitted jobid=46960425
+[2026-05-10 21:27:24] job 'ft_aramco_v1' active — holding
+[2026-05-10 21:28:24] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:28:25]   submitted jobid=46960510
+[2026-05-10 21:29:25] job 'ft_aramco_v1' active — holding
+[2026-05-10 21:30:25] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:30:25]   submitted jobid=46960585
+[2026-05-10 21:31:25] job 'ft_aramco_v1' active — holding
+[2026-05-10 21:32:25] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:32:25]   submitted jobid=46960629
+[2026-05-10 21:33:25] job 'ft_aramco_v1' active — holding
+[2026-05-10 21:34:26] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:34:26]   submitted jobid=46960640
+[2026-05-10 21:35:26] job 'ft_aramco_v1' active — holding
+[2026-05-10 21:36:26] job 'ft_aramco_v1' active — holding
+[2026-05-10 21:37:26] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:37:26]   submitted jobid=46960657
+[2026-05-10 21:38:19] watchdog interrupted — exiting
+[2026-05-10 21:39:52] ==============================================================
+[2026-05-10 21:39:52] watchdog RUN_TAG=aramco_v1  JOB_NAME=ft_aramco_v1
+[2026-05-10 21:39:52] WATCH_INTERVAL=60s  SAVE_EVERY=20  MAX_EPOCHS=1
+[2026-05-10 21:39:52] short_script=/home/ignaczg/projects/aramco_dac/my_scripts/run_exp/run_finetune_mof_db_short.sh
+[2026-05-10 21:39:52] sentinel=/ibex/project/c2261/dac_iclr/finetune/lightning_logs/aramco_v1/aramco_v1.done
+[2026-05-10 21:39:52] ==============================================================
+[2026-05-10 21:39:52] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:39:52]   submitted jobid=46960665
+[2026-05-10 21:40:52] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:40:52]   submitted jobid=46960673
+[2026-05-10 21:41:52] job 'ft_aramco_v1' active — holding
+[2026-05-10 21:42:52] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:42:53]   submitted jobid=46960680
+[2026-05-10 21:43:53] job 'ft_aramco_v1' active — holding
+[2026-05-10 21:44:53] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:44:53]   submitted jobid=46960693
+[2026-05-10 21:45:53] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:45:53]   submitted jobid=46960695
+[2026-05-10 21:46:48] watchdog interrupted — exiting
+[2026-05-10 21:46:49] ==============================================================
+[2026-05-10 21:46:49] watchdog RUN_TAG=aramco_v1  JOB_NAME=ft_aramco_v1
+[2026-05-10 21:46:49] WATCH_INTERVAL=60s  SAVE_EVERY=20  MAX_EPOCHS=1
+[2026-05-10 21:46:49] short_script=/home/ignaczg/projects/aramco_dac/my_scripts/run_exp/run_finetune_mof_db_short.sh
+[2026-05-10 21:46:49] sentinel=/ibex/project/c2261/dac_iclr/finetune/lightning_logs/aramco_v1/aramco_v1.done
+[2026-05-10 21:46:49] ==============================================================
+[2026-05-10 21:46:49] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:46:50]   submitted jobid=46960699
+[2026-05-10 21:47:50] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:47:50]   submitted jobid=46960702
+[2026-05-10 21:48:50] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:48:50]   submitted jobid=46960704
+[2026-05-10 21:49:50] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:49:51]   submitted jobid=46960713
+[2026-05-10 21:50:51] job 'ft_aramco_v1' active — holding
+[2026-05-10 21:51:51] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:51:51]   submitted jobid=46960724
+[2026-05-10 21:52:51] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:52:51]   submitted jobid=46960728
+[2026-05-10 21:53:40] watchdog interrupted — exiting
+[2026-05-10 21:53:42] ==============================================================
+[2026-05-10 21:53:42] watchdog RUN_TAG=aramco_v1  JOB_NAME=ft_aramco_v1
+[2026-05-10 21:53:42] WATCH_INTERVAL=60s  SAVE_EVERY=20  MAX_EPOCHS=1
+[2026-05-10 21:53:42] short_script=/home/ignaczg/projects/aramco_dac/my_scripts/run_exp/run_finetune_mof_db_short.sh
+[2026-05-10 21:53:42] sentinel=/ibex/project/c2261/dac_iclr/finetune/lightning_logs/aramco_v1/aramco_v1.done
+[2026-05-10 21:53:42] ==============================================================
+[2026-05-10 21:53:42] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:53:42]   submitted jobid=46960755
+[2026-05-10 21:54:42] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:54:43]   submitted jobid=46960766
+[2026-05-10 21:55:16] watchdog interrupted — exiting
+[2026-05-10 21:58:46] ==============================================================
+[2026-05-10 21:58:46] watchdog RUN_TAG=aramco_v1  JOB_NAME=ft_aramco_v1
+[2026-05-10 21:58:46] WATCH_INTERVAL=60s  SAVE_EVERY=20  MAX_EPOCHS=1
+[2026-05-10 21:58:46] short_script=/home/ignaczg/projects/aramco_dac/my_scripts/run_exp/run_finetune_mof_db_short.sh
+[2026-05-10 21:58:46] sentinel=/ibex/project/c2261/dac_iclr/finetune/lightning_logs/aramco_v1/aramco_v1.done
+[2026-05-10 21:58:46] ==============================================================
+[2026-05-10 21:58:46] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 21:58:46]   submitted jobid=46960810
+[2026-05-10 21:59:46] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:00:46] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:01:46] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:02:46] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:03:22] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:04:22] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:05:22] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:06:22] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:07:22] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:08:22] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:09:22] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:10:22] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:11:22] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:12:22] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:13:22] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:14:22] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:15:22] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:16:22] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:17:23] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:18:23] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:19:23] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:20:23] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:21:23] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:22:23] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:23:23] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:24:23] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:25:23] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:26:23] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:27:23] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:28:23] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:29:24] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:30:24] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:31:24] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:32:24] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:33:24] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:34:24] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:35:24] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:36:24] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:37:24] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:38:24] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:39:24] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:40:25] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:41:25] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:42:25] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:43:25] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:44:25] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:45:25] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:46:25] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:47:25] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:48:25] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:49:26] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:50:26] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:51:26] no active 'ft_aramco_v1' job — submitting
+sbatch: (Warning): You can only receive job status emails at your own KAUST email address.
+sbatch: (Warning): The notification will be sent to [ ignaczg@kaust.edu.sa ] instead.
+[2026-05-10 22:51:26]   submitted jobid=46961066
+[2026-05-10 22:52:26] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:53:26] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:54:26] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:55:26] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:56:26] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:57:26] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:58:26] job 'ft_aramco_v1' active — holding
+[2026-05-10 22:59:26] job 'ft_aramco_v1' active — holding
+[2026-05-10 23:00:26] job 'ft_aramco_v1' active — holding
+[2026-05-10 23:01:27] job 'ft_aramco_v1' active — holding
+[2026-05-10 23:01:39] watchdog interrupted — exiting
