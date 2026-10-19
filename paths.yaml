@@ -1,0 +1,13 @@
+# paths.yaml
+environments:
+  ibex:
+    root: /ibex/project/c2261
+    ocp: /ibex/ai/reference/OPC_OpenCatalystProject/data
+    pt_logging: /ibex/project/c2261/dac_iclr/pretrain
+    ft_logging: /ibex/project/c2261/dac_iclr/finetune
+
+  docker:
+    root: /opt/resources
+    ocp: /opt/resources/datasets/OCP
+    pt_logging: /opt/output/pretrain_logs
+    ft_logging: /opt/output/finetune_logs

@@ -1,0 +1,17 @@
+A1	ablation_A1_gemnet_scratch_v2	A	GemNet, scratch
+A2	ablation_A2_gemnet_jmp_v2	A	GemNet, JMP pretrained
+A3	ablation_A3_equiformer_jmp_v2	A	EquiformerV2, JMP pretrained
+A4	ablation_A4_baseline_v2	A	EquiformerV2, ODAC pretrained (baseline)
+B1	ablation_B1_rbf_gaussian_scratch_v2	B	RBF gaussian (scratch)
+B2	ablation_B2_rbf_bessel_scratch_v2	B	RBF bessel (scratch)
+B3	ablation_B3_rbf_coulomb_sturmian_scratch_v2	B	RBF coulomb-Sturmian (scratch)
+C1	ablation_C1_hetero_v2	C	Heteroscedastic head
+C2	ablation_C2_classification_v2	C	Auxiliary classification head
+D2	ablation_D2_huber_v2	D	Huber loss
+D3	ablation_D3_l2_v2	D	L2 loss
+E2	ablation_E2_log_v2	E	Log normalization
+F2	ablation_F2_per_cell_v2	F	Uptake conversion per cell
+F3	ablation_F3_per_volume_v2	F	Uptake conversion per volume
+G2	ablation_G2_roi_v2	G	ROI penalty 2.0
+H2	ablation_H2_invfreq_v2	H	Inverse-frequency reweighting
+I2	ablation_I2_fusion_v2	I	Feature fusion

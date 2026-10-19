@@ -1,0 +1,13 @@
+[project]
+name = "jmp"
+version = "0.0.1"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["jmp*"]
+
+[tool.pyright]
+deprecateTypingAliases = true
+strictListInference = true
+strictDictionaryInference = true
+strictSetInference = true
