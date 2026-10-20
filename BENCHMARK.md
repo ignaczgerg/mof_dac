@@ -21,3 +21,9 @@ This document lists the external methods/frameworks used for benchmarking.
 - **Description:** Automated machine learning baseline that trains and ranks multiple model families with standardized workflows for strong tabular benchmarking.
 - **Feature engineering (used with H2O AutoML):** SOAP descriptors extracted from CIF files using DScribe.
 - **DScribe repository:** https://github.com/SINGROUP/dscribe
+
+## 5) SOAP Descriptors (Feature Engineering)
+- **Implementation used:** DScribe SOAP
+- **Repository:** https://github.com/SINGROUP/dscribe
+- **Description:** Smooth Overlap of Atomic Positions (SOAP) descriptors were computed from CIF crystal structures to generate fixed-length, structure-aware feature vectors for machine learning.
+- **Role in this work:** Used as the input feature representation for tabular baselines, including the H2O AutoML benchmark.

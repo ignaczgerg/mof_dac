@@ -26,6 +26,7 @@ my_scripts/setup_finetune.py        config builders and checkpoint / dataset res
 my_scripts/ablation/                one SLURM script per ablation run, LR sweep, watchdog
 my_scripts/ablation/report/         test-set export and metric table
 my_scripts/inference/mof_transformer_campaign/   F2 screening campaign
+soap/                               SOAP descriptor extraction utilities (see `soap/README.md`)
 ```
 
 ## Installation
